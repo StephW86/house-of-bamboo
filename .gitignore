@@ -28,6 +28,7 @@ config/master.key
 # TODO Comment out these rules if environment variables can be committed
 .env
 .env*.local
+!/.env*.erb
 
 ## Environment normalization:
 /.bundle
@@ -47,8 +48,13 @@ bower.json
 # Ignore pow environment settings
 .powenv
 
-# Ignore Byebug command history file.
+# Ignore Byebug command history file
 .byebug_history
+
+# Ignore pidfiles, but keep the directory
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
 
 # Ignore node_modules
 node_modules/
@@ -67,3 +73,6 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
