@@ -1,7 +1,7 @@
-require "rspec"
+require "test_helper"
 
-class VideosControllerTest
-  # test "video randomiser picks" do
+class VideosControllerTest < ActionDispatch::IntegrationTest
+  # test "the truth" do
   #   assert true
   # end
 end
