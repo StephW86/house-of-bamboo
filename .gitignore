@@ -76,3 +76,6 @@ yarn-debug.log*
 /tmp/storage/*
 !/tmp/storage/
 !/tmp/storage/.keep
+
+/app/assets/builds/*
+!/app/assets/builds/.keep

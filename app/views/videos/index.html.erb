@@ -1,4 +1,19 @@
-<div class=container>
-  <h1>Videos#index</h1>
-  <p>Find me in app/views/videos/index.html.erb</p>
+<div class="flex flex-col items-start">
+  <%= video_tag(
+    @video,
+    size: "320x240",
+    controls: true,
+    autoplay: true,
+    muted: true,
+    playsinline: true
+    ) do %>
+    <p>Your browser doesn't support this video. Here's a <a href="<%= @video %>">link to the video</a> instead.</p>
+  <% end %>
+
+    <a
+      href="https://linktr.ee/houseofbamboo_btn?utm_source=linktree_profile_share&ltsid=bc52003f-35f1-41ef-b83e-19c9c38454f1"
+      class="self-end text-sm mt-1 text-white"
+    >
+      @houseofbamboo_btn
+    </a>
 </div>
