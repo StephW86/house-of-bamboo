@@ -5,6 +5,7 @@ require "action_controller/railtie"
 require "action_view/railtie"
 require "sprockets/railtie"
 require "action_cable/engine"
+require "active_job/railtie"
 # require "active_record/railtie" # 👈 disable this if you're not using a DB
 
 # Require the gems listed in Gemfile, including any gems
