@@ -1,17 +1,21 @@
-<div class="flex flex-col" data-controller="play-next-button" >
+<div
+  class="flex flex-col"
+  data-controller="play-next-button"
+  data-play-next-button-index-value="1"
+>
   <div class="flex flex-row">
     <%= video_tag(
-      @video,
+      "video_1.mp4",
       size: "320x240",
       controls: true,
       autoplay: true,
       muted: true,
       playsinline: true,
-      data: { "play-next-button-target": "video" }
+      data: { play_next_button_target: "video" }
       ) do %>
-      <p>Your browser doesn't support this video. Here's a <a href="<%= @video %>">link to the video</a> instead.</p>
+      <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_1.mp4') %>">link to the video</a> instead.</p>
     <% end %>
-    <%= image_tag 'play_next.svg', width: 200, data: { action: "click->play-next-button#next" } %>
+    <%= image_tag 'play_next.svg', width: 100, data: { action: "click->play-next-button#next" } %>
   </div>
   <div>
     <a
