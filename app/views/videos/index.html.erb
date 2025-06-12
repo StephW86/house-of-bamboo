@@ -1,7 +1,7 @@
 <div
-  data-play-next-button-index-value="1"
   class="flex flex-col"
   data-controller="play-next-button"
+  data-play-next-button-index-value="1"
 >
   <div class="flex flex-row">
     <%= video_tag(
@@ -11,7 +11,7 @@
       autoplay: true,
       muted: true,
       playsinline: true,` `
-      data: { "play-next-button-target": "video" }
+      data: { play-next-button-target: "video" }
       ) do %>
       <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_1.mp4') %>">link to the video</a> instead.</p>
     <% end %>
