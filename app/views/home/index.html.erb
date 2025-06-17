@@ -6,15 +6,11 @@
       :alt => "House of Bamboo (Disco, house & techno from around the world) - Gig details: Oculist - Day party, Saturday 21st June, 3pm - 10pm. DJS: OhSee, Whoshe, Studio 29*, Sonic Juncture, House of Bamboo. Free entry"
       ) %>
   </div>
-    <div class="m-8 border-[#fab630] border-4 rounded-lg p-4 bg-white">
-    <a
-      href="https://dice.fm/event/l866gb-house-of-bamboo-presents-odyssey-12th-jul-tempest-brighton-tickets?lng=en"
-    >
-      <%= image_tag(
-        "Linktree - 1080x1080 - HoB Jul 25.jpg",
-        width: 600,
-        :alt => "House of Bamboo (Disco, house & techno from around the world) - Gig details: Tempest - Terrace party, Saturday 12th July, 7pm - 2am. DJS: Kirbee, Whoshe, Aaron D, Florence, Barney Osborn, House of Bamboo. Free entry"
-        ) %>
-    </a>
+  <div class="m-8 border-[#fab630] border-4 rounded-lg p-4 bg-white">
+    <%= link_to "https://dice.fm/event/l866gb-house-of-bamboo-presents-odyssey-12th-jul-tempest-brighton-tickets?lng=en", target: :_blank do %>
+    <%= image_tag("Linktree - 1080x1080 - HoB Jul 25.jpg",
+      width: 600,
+      alt: "House of Bamboo (Disco, house & techno from around the world) - Gig details...") %>
+    <% end %>
   </div>
 </div>
