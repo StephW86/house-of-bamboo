@@ -1,81 +1,85 @@
-
-<div class="bg-sun bg-repeat">
-<%# <div class="bg-[url('/images/background-sun.png')] bg-repeat"> %>
-  <div class="flex flex-col">
-    <div class="mb-4">
+<div class="w-full bg-[url('/images/background-sun.png')] bg-repeat py-12">
+  <div class="flex flex-col items-center">
+    <div class="mb-12 border-[#ef5828] border-4 rounded-lg p-4 bg-white">
       <%= video_tag(
         "/videos/video_1.mp4",
-        size: "320x240",
+        size: "640x480",
         controls: true,
         autoplay: true,
         muted: true,
         playsinline: true,
         loop: true,
+        class: "rounded-lg",
         ) do %>
         <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_1.mp4') %>">link to the video</a> instead.</p>
       <% end %>
     </div>
-    <div class="mb-4">
+    <div class="mb-12 border-[#fab630] border-4 rounded-lg p-4 bg-white">
       <%= video_tag(
         "/videos/video_2.mp4",
-        size: "320x240",
+        size: "640x480",
         controls: true,
         autoplay: true,
         muted: true,
         playsinline: true,
         loop: true,
+        class: "rounded-lg",
         ) do %>
         <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_2.mp4') %>">link to the video</a> instead.</p>
       <% end %>
     </div>
-    <div class="mb-4">
+    <div class="mb-12 border-[#ef5828] border-4 rounded-lg p-4 bg-white">
       <%= video_tag(
         "/videos/video_3.mp4",
-        size: "320x240",
+        size: "640x480",
         controls: true,
         autoplay: true,
         muted: true,
         playsinline: true,
         loop: true,
+        class: "rounded-lg",
         ) do %>
         <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_3.mp4') %>">link to the video</a> instead.</p>
       <% end %>
     </div>
-    <div class="mb-4">
+    <div class="mb-12 border-[#fab630] border-4 rounded-lg p-4 bg-white">
       <%= video_tag(
         "/videos/video_4.mp4",
-        size: "320x240",
+        size: "640x480",
         controls: true,
         autoplay: true,
         muted: true,
         playsinline: true,
         loop: true,
+        class: "rounded-lg",
         ) do %>
         <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_4.mp4') %>">link to the video</a> instead.</p>
       <% end %>
     </div>
-    <div class="mb-4">
+    <div class="mb-12 border-[#ef5828] border-4 rounded-lg p-4 bg-white">
       <%= video_tag(
         "/videos/video_5.mp4",
-        size: "320x240",
+        size: "640x480",
         controls: true,
         autoplay: true,
         muted: true,
         playsinline: true,
         loop: true,
+        class: "rounded-lg",
         ) do %>
         <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_5.mp4') %>">link to the video</a> instead.</p>
       <% end %>
     </div>
-    <div class="mb-4">
+    <div class="mb-12 border-[#fab630] border-4 rounded-lg p-4 bg-white">
       <%= video_tag(
         "/videos/video_6.mp4",
-        size: "320x240",
+        size: "640x480",
         controls: true,
         autoplay: true,
         muted: true,
         playsinline: true,
         loop: true,
+        class: "rounded-lg",
         ) do %>
         <p>Your browser doesn't support this video. Here's a <a href="<%= asset_path('video_6.mp4') %>">link to the video</a> instead.</p>
       <% end %>
