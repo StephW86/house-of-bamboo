@@ -21,8 +21,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="flex flex-col min-h-screen">
     <%= render "layouts/navbar" %>
-      <%= yield %>
+      <main class="flex-grow">
+        <%= yield %>
+      </main>
+    <%= render "layouts/footer" %>
   </body>
 </html>
