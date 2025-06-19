@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
+        roboto: ['Roboto', 'ui-sans-serif', 'system-ui'],
       },
       backgroundImage: {
         'sun': "url('/images/background-sun.png')",
