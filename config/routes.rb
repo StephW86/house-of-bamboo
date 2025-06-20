@@ -14,4 +14,5 @@ Rails.application.routes.draw do
 
   root to: "home#index"
   get "/videos", to: "videos#index"
+  get "/qrcode", to: "redirects#qrcode"
 end
