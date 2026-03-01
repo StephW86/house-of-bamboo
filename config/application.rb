@@ -1,12 +1,12 @@
-require_relative "boot"
+require_relative 'boot'
 
 # Only include frameworks you actually use:
-require "action_controller/railtie"
-require "action_view/railtie"
-require "sprockets/railtie"
-require "action_cable/engine"
-require "active_job/railtie"
-# require "active_record/railtie" # 👈 disable this if you're not using a DB
+require 'action_controller/railtie'
+require 'action_view/railtie'
+require 'sprockets/railtie'
+require 'action_cable/engine'
+require 'active_job/railtie'
+# require 'active_record/railtie' # 👈 disable this if you're not using a DB
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -27,7 +27,7 @@ module HouseOfBamboo
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
     #
-    # config.time_zone = "Central Time (US & Canada)"
-    # config.eager_load_paths << Rails.root.join("extras")
+    # config.time_zone = 'Central Time (US & Canada)'
+    # config.eager_load_paths << Rails.root.join('extras')
   end
 end
