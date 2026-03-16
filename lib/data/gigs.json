@@ -1,32 +1,20 @@
 [
   {
-    "url": "https://www.justgiving.com/crowdfunding/1btniwd26",
-    "image": "1BTN IWD Takeover.jpeg",
-    "alt_text": "Rise Brighton Fundraiser - 1BTN International Women's Day takeover"
-  },
-  {
-    "url": "https://www.tempest.pub/event-listings",
-    "image": "A Residance - House of Bamboo x DJ SoUnso.jpeg",
-    "alt_text": "A Residance - House of Bamboo x DJ SoUnso - Tempest Brighton - Saturday 7th March"
-  },
-  {
-    "url": "https://dice.fm/event/v3b75l-craig-charles-funk-soul-house-party-13th-mar-concorde-2-brighton-tickets?lng=en",
-    "image": "Craig Charles Funk and Soul Party with House of Bamboo support.jpeg",
-    "alt_text": "Craig Charles Funk & Soul House Party with House of Bamboo support"
-  },
-  {
     "url": "https://www.oculist.pub/events/houseworx",
     "image": "Houseworx - Fri 20th March - Oculist Brighton.jpeg",
-    "alt_text": "Houseworx | Fri 20th March at 10pm | Oculist"
+    "alt_text": "Houseworx | Fri 20th March at 10pm | Oculist",
+    "date": "2026-03-20"
   },
   {
     "url": "https://www.tempest.pub/event-listings",
     "image": "House of Bamboo - Disco Utopia.jpg",
-    "alt_text": "House of Bamboo presents Disco Utopia at Tempest, Brighton on Friday 3rd April from 9pm. With Wildblood & Queenie, WhoShee and Kirbee"
+    "alt_text": "House of Bamboo presents Disco Utopia at Tempest, Brighton on Friday 3rd April from 9pm. With Wildblood & Queenie, WhoShee and Kirbee",
+    "date": "2026-04-03"
   },
   {
     "url": "https://quartersbrighton.co.uk/whatson/norman-jay",
     "image": "Norman Jay MBE with House of Bamboo support - Brighton.jpeg",
-    "alt_text": "Norman Jay MBE with House of Bamboo, Ty Abiodun and Jacqui Nanson support - Quarters, Brighton on Saturday 4th April"
+    "alt_text": "Norman Jay MBE with House of Bamboo, Ty Abiodun and Jacqui Nanson support - Quarters, Brighton on Saturday 4th April",
+    "date": "2026-04-04"
   }
 ]
