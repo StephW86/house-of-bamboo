@@ -66,6 +66,6 @@ gem 'dotenv-rails'
 
 gem 'tailwindcss-rails'
 
-gem 'tailwindcss-ruby', '~> 4.2'
+gem 'tailwindcss-ruby', '~> 4.3'
 
 gem 'pry-rails'
