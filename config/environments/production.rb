@@ -7,10 +7,10 @@ Rails.application.configure do
   config.enable_reloading = false
 
   # Skip logging health check requests
-  config.silence_healthcheck_path = "/up"
+  config.silence_healthcheck_path = '/up'
 
   # Far-future caching for digest-stamped assets
-  config.public_file_server.headers = { "cache-control" => "public, max-age=#{1.year.to_i}" }
+  config.public_file_server.headers = { 'cache-control' => "public, max-age=#{1.year.to_i}" }
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
