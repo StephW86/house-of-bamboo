@@ -282,6 +282,7 @@ GEM
     tailwindcss-rails (4.6.0)
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 4.0)
+    tailwindcss-ruby (4.3.3)
     tailwindcss-ruby (4.3.3-aarch64-linux-gnu)
     tailwindcss-ruby (4.3.3-arm64-darwin)
     tailwindcss-ruby (4.3.3-x86_64-linux-gnu)
@@ -339,4 +340,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.3.4
+  4.0.23
