@@ -1,7 +1,13 @@
-  <div class='mx-auto mb-6 lg:mb-10 max-w-[424px] border-[#fab630] border-4 p-2 bg-white'>
+  <div class='mx-auto mb-6 lg:mb-10 max-w-[424px] p-2 bg-white'>
     <%= link_to url, target: :_blank do %>
       <%= image_tag(image,
         alt: alt_text,
         class: 'w-full') %>
+    <% end %>
+    <% if title.present? %>
+      <p class='mt-4 text-center text-2xl font-bold text-[#ef5828] font-[roboto]'><%= title %></p>
+    <% end %>
+    <% if description.present? %>
+      <p class='text-center text-base text-[#ef5828] font-[roboto]'><%= description %></p>
     <% end %>
   </div>
